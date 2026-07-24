@@ -1,1 +1,14 @@
-hola
+# ---------------------------------------------------------------
+# Requisitos para la app de EDA interactivo con Streamlit
+# Instalación:
+#   pip install -r requirements.txt
+# Ejecución:
+#   streamlit run app.py
+# ---------------------------------------------------------------
+
+streamlit>=1.35
+pandas>=2.2
+numpy>=1.24
+plotly>=5.20
+scipy>=1.11
+statsmodels>=0.14      # necesario para las líneas de tendencia OLS de plotly
